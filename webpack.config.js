@@ -25,7 +25,7 @@ module.exports = {
       // @name         esa.io copy menu
       // @namespace    https://github.com/fushihara/esa-io-copy-menu
       // @match        https://*.esa.io/posts/*
-      // @description  gist.githubのタイトルやURL単独コピー機能を追加
+      // @description  esa.io PC版のドロップダウンメニューに、タイトル・URLを個別にコピーする機能を追加
       // @version      ${process.env.npm_package_version}
       // @grant        none
       // @license      MIT
