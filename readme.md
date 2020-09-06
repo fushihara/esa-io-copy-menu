@@ -1,33 +1,24 @@
-# これは？
+# 概要
 
 esa.io PC版のドロップダウンメニューに、タイトル・URLを個別にコピーする機能を追加します。
 
 <img src="./readme-img/imgTemp-2020-08-30-04-00-28.png">
 
-# 使い方？
+# 動作確認環境
 
-ビルド環境は以下の通り。
-- windows 10 、nodejs v14.8
+- google chrome
+- windows10
+- Tampermonkey
 
-実行環境は以下の通り
-- google chrome win 、 Tampermonkey 
+# 使い方
 
-ビルドコマンドは以下の通り
+- ビルドをしてout/script.user.jsを作成
+- ファイルをTampermonkeyにコピペ
 
-- npm ci
-- npx webpack
+# ビルド方法
 
-以下の場所にファイルが出来ます
+- `npm ci`
+- `npm run build`
 
-- ./out/main.js
-
-Tampermonkeyに以下のコマンドを登録。各種パラメータは環境に応じて書き換え。
-
-```
-// ==UserScript==
-// @name         esa.io util
-// @require      file:///C:/xxx/out/main.js
-// @match        https://xxxx.esa.io/posts/*
-// @noframes
-// ==/UserScript==
-```
+# Licence
+MIT License
